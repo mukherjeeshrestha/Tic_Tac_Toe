@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    min-height: 100vh;
+    background-color: #0b0f27;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    padding: 26px;
+    border-radius: 10px;
+    background-image: url('tic_background.png');
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    width:100%;
+     font-size: 1.2rem;
+    max-width:600px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #8c7ae6;
+}
+
+.status-display {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #ffb700;
+}
+
+.game-mode-selection {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.mode-button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #9582f7;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.mode-button:hover {
+    background-color: #7765fe;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+    width: 315px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(44, 58, 94, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.cell:hover {
+    background-color: rgba(63, 77, 109, 0.7);
+}
+
+.cell.X {
+    color: #00b894;
+}
+
+.cell.O {
+    color: #d63031;
+}
+
+.restart-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #8c7ae6;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.restart-button:hover {
+    background-color: #6c5ce7;
+}
