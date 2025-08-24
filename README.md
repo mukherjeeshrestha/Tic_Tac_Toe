@@ -22,6 +22,9 @@ Choose a Mode: Select "Player vs Player" or "Player vs AI" to begin.
 
 Enjoy the Game: Take turns clicking on the cells to place your 'X' or 'O' and aim for three in a row!
 
+# Github Pages Deployment:
+https://mukherjeeshrestha.github.io/Tic_Tac_Toe/
+
 # File Structure
 index.html: The main HTML file containing the game structure.
 
